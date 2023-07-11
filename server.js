@@ -8,7 +8,7 @@ var multer = require('multer'),
   path = require('path');
 var mongoose = require("mongoose");
 // mongoose.connect("mongodb://localhost/productDB");
-mongoose.connect("mongodb://127.0.0.1:27017/FINAL-CRUD", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://m007:Wj040Fcyj0qstxCs@tms.zpeyeou.mongodb.net/", { useNewUrlParser: true });
 // mongoose.connect("mongodb://localhost/productDB", { useNewUrlParser: true });
 var fs = require('fs');
 var product = require("./model/product.js");
